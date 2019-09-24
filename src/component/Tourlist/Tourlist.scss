@@ -1,0 +1,22 @@
+.tourlist {
+  width: 70vw; //vw- 70 percent of the screen width
+  margin: 0 auto; // for center top-bottom is 0 and l&r is auto
+  padding: 2rem 0;
+}
+@media screen and (min-width: 760px) {
+  .tourlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .tourlist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1140px) {
+  .tourlist {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

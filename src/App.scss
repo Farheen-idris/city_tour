@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+$mainBlack: black;
+$mainGreen: rgb(221, 236, 13);
+$mainwhite: white;
+$maingrey: rgb(175, 174, 174);
+
+body {
+  background: $mainwhite;
+  color: $mainGreen;
+  font-family: "Rubik", sans-serif;
+}
